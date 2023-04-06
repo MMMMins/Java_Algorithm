@@ -2,13 +2,11 @@ package Sort;
 import java.util.Arrays;
 
 public class Merge {
-    public static void main(String[] args) {
-        solve();
-    }
-    private static void solve() {
+    public static void solve(int[] numList) {
         int[] array = { 230, 10, 60, 550, 40, 220, 20 };
 
         mergeSort(array, 0, array.length - 1);
+        //mergeSort(numList, 0, numList.length - 1);
 
         for (int v : array) {
             System.out.println(v);
