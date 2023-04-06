@@ -1,6 +1,5 @@
 package Sort;
 
-import java.util.Random;
 
 public class Selection {
     public static void SelectionSort(int[] numList){
